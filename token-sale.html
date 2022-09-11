@@ -10,11 +10,6 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
         integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
     <link rel="stylesheet" href="/assets/css/style.css">
-    <!-- Favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/favicon_io/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon_io/as/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon_io/favicon-16x16.png">
-    <link rel="manifest" href="/assets/img/favicon_io/site.webmanifest">
     <style>
         canvas {
 	position: absolute;
@@ -26,7 +21,7 @@
 </head>
 
 <body>
-<!--     <canvas></canvas> -->
+    <!-- <canvas></canvas> -->
     <div class="container">
         <nav class="navbar navbar-expand-lg navbar-light" style="background-color:#070707">
             <a class="navbar-brand" href="#">
@@ -40,7 +35,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="index.html" style="color:#ffffff; margin-top: 10px; padding-left: 70px;">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="index-class.html" style="color:#ffffff; margin-top: 10px; padding-left: 70px;">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="about.html" style="color:#ffffff; margin-top: 10px; padding-left: 70px;">About us</a>
@@ -64,11 +59,11 @@
             </div>
         </nav>
         <br><br>
-         <div>
-		    <h1 class="token">Token Sale</h1>
-		</div>
-		<br><br>
-        <div class="row">	
+        <div>
+            <h1 class="token">Token Sale</h1>
+        </div>
+        <br><br>
+        <div class="row">
             <div class="hero-background"></div>
             <div class="col-md-3">
 
@@ -93,7 +88,7 @@
         <div class="row">
             <div class="col-md-4">
                 <div class="feature-card border"
-                    style="width: 22rem; height: 420px; background-color: #0E0E0E;border-radius: 30px;">
+                    style="width: 18rem; height: 420px; background-color: #0E0E0E;border-radius: 30px;">
                     <div class="card__top">
                         <br>
                             <img src="/assets/img/vectors/secure.png" alt="">
@@ -101,7 +96,7 @@
                         <br><br><br>
                         <h1 class="feature-head text-center"> Safe & Secure </h1>
                         <br><br>
-                        <span class="feature-text"> While there are projects that 
+                        <p class="card-text text-white" style="padding: 20px"> While there are projects that 
                             have promised to promote 
                             token value with buy back and
                             burn mechanism, they often 
@@ -110,13 +105,13 @@
                             buyback and LP tokens to a 
                             dead address (blackhole).
                             <div class="card-under"></div>
-                             </span>
+                        </p>
                     </div>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="feature-card border"
-                    style="width: 22rem; height: 420px; background-color: #0E0E0E;border-radius: 30px;">
+                    style="width: 18rem; height: 420px; background-color: #0E0E0E;border-radius: 30px;">
                     <div class="card__top">
                         <br>
                             <img src="/assets/img/vectors/buy.png" alt="">
@@ -124,7 +119,7 @@
                         <br><br><br>
                         <h1 class="feature-head"> Buy & Sell </h1>
                         <br><br>
-                        <span class="feature-text"> We will implement a Multi-Sig
+                        <p class="card-text text-white" style="padding: 20px"> We will implement a Multi-Sig
                             on Classical Trust, using Gnosis
                             secure multisig implementation.
                             This will boost security and
@@ -132,21 +127,21 @@
                             trusted with the wallet and are 
                             up-to-date with activities therein. 
                             <div class="card-under"></div>
-                        </span>
+                        </p>
                     </div>
                     <div class="bord"></div>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="feature-card border"
-                    style="width: 22rem; height: 420px; background-color: #0E0E0E;border-radius: 30px;">
+                    style="width: 18rem; height: 420px; background-color: #0E0E0E;border-radius: 30px;">
                     <div class="card__top">
                         <br>
                         <img src="/assets/img/vectors/support.png" alt="">
                         <br><br><br>
                         <h1 class="feature-head"> 24/7 Support </h1>
                         <br><br>
-                        <span class="feature-text text-white"> We will implement a DAO
+                        <p class="card-text text-white" style="padding: 20px"> We will implement a DAO
                             system with the Classical Trust. 
                             The community will decide 
                             where and when the Classical 
@@ -154,7 +149,7 @@
                             any third party, developers or
                              administrator’s manipulation. 
                              <div class="card-under"></div>
-                            </span>
+                        </p>
                     </div>
                 </div>
             </div>
@@ -208,16 +203,8 @@
        </div>
     <span class="overview-background"></span>
 
-
-
-    <div id="accordion">
-    </div>
     
-    
-
-
-        
-    <div class="sub">
+    <div class="container-fluid d-none d-md-block">
         <div class="row">
             <div class="col-md-4">
             </div>
@@ -234,7 +221,8 @@
             <div class="col-md-4">
             </div>
         </div>
-    </div>
+    </div> 
+    <br><br><br><br><br>
     <div class="row first-footer">
         <div class="col-md-4">
             <br>
