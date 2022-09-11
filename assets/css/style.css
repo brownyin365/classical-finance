@@ -55,7 +55,7 @@ body {
   color: #FFE200;
 }
 
-.hero-text {
+/* .hero-text {
   width: 423px;
   height: 135px;
   left: 103px;
@@ -66,7 +66,7 @@ body {
   font-size: 20px;
   line-height: 27px;
   color: #FFFFFF;
-}
+} */
 
 .hero-butt {
   display: flex;
